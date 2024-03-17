@@ -1,0 +1,35 @@
+img{
+    border: 20px solid rgb(212, 88, 204);
+    border-style:double;
+}
+td{
+    
+    border: 2px solid black;
+}
+body{
+    background-color: aqua;
+    color: rgb(22, 4, 225);
+    text-emphasis-style: italic;
+
+}
+caption{
+    background-color: rgb(35, 184, 45);
+}
+thead{
+    background-color: aliceblue;
+}
+tbody{
+    background-color: pink;
+    color: rgb(253, 253, 0);
+}
+tfoot{
+    background-color:rgb(73, 73, 208);
+    color: rgb(225, 9, 9);
+}
+ul{
+    background-color: yellow;
+}
+ol{
+    background-color: rgb(165, 57, 57);
+    color:rgb(19, 228, 169);
+}

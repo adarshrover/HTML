@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Let's learn it</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form to apply for sigma web development course - TA</h1>
+    <!--The autofocus attribute automatically focuses the cursor on the particular input when the page loads.-->
+    <form action="post">
+        <div>
+        <label for="username" style="color:blueviolet;">Username :</label>
+        <input type="text" name="username"
+        placeholder="Enter your username" required autofocus>
+    </div>
+        <br>
+        <div>
+        <label for="password" style="color: blueviolet;">Password :</label>
+        <input type="password" name="password" placeholder="Enter password here" required>
+    
+    </div> 
+        <div>
+        <label for="gender">Gender  :</label>
+    <input type="radio" id="male" name="gender" value="male" autofocus>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+</div>
+<div>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">Subscribe to newsletter</label>
+    <input type="checkbox" id="notifications" name="notifications" value="yes">
+    <label for="notifications">Send notifications to Email</label>
+</div>
+
+    <span style="background-color: rgb(157, 255, 0);"><label for="comment">Enter your comment ⤵️</label>
+    </span>
+    
+    <div>
+        <br>
+<textarea name="" id="" cols="30" rows="10">
+Enter text here:
+</textarea>
+</div>
+<br>
+<div>
+    <label for="dob">D.O.B :</label>
+    <input type="date" name="birthdate" id="birthdate" >
+</div>
+<br>
+Favourite fruit  :
+<select name="fruits" id="fruits">
+    <option value="Mango">Mango</option>
+    <option value="Banana">Banana</option>
+    <option value="Orange">Orange</option>
+    <option value="Apple">Apple</option>
+</select>
+<br>
+<br>
+<div>
+    <input type="range" name="volume" id="volume" min="0" max="100">
+</div>
+<br>
+
+<div>
+    <input type="number" name="quantity" id="" min="0" max="10">
+</div>
+<br>
+<div>
+    <input type="email" name="email" id="" placeholder="Enter Email">
+</div>
+<br>
+<div>
+    <input type="search" name="query" id="" placeholder="Search">
+</div>
+  <div>
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <button onclick="alert ('Thank you for subscribing🙂')">Subscribe</button>
+     <button type="button">Button
+     </button>
+     <!--Or you can write <input type="button" value="Button"> -->
+     
+    
+<div>
+  </form>
+    
+</body>
+</html>
